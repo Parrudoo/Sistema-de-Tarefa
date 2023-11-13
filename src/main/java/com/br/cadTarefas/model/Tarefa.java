@@ -2,6 +2,7 @@ package com.br.cadTarefas.model;
 
 import java.time.LocalDate;
 
+import com.br.cadTarefas.dto.TarefaDTO;
 import com.br.cadTarefas.enums.Status;
 
 import jakarta.annotation.Generated;
@@ -21,6 +22,8 @@ import lombok.Setter;
 @Entity
 public class Tarefa {
 	
+	
+
 	@Id @GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 
